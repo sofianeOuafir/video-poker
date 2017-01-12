@@ -12,10 +12,10 @@
 		BD426AEE1DABC7B700ACF26F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD426AEC1DABC7B700ACF26F /* MainMenu.xib */; };
 		BD426AF91DABC7B700ACF26F /* TP3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD426AF81DABC7B700ACF26F /* TP3Tests.swift */; };
 		BD426B041DABC7B700ACF26F /* TP3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD426B031DABC7B700ACF26F /* TP3UITests.swift */; };
-		BD426B121DABC7FA00ACF26F /* Carte.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD426B111DABC7FA00ACF26F /* Carte.swift */; };
-		BD426B1C1DABC82600ACF26F /* Joueur.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD426B1B1DABC82600ACF26F /* Joueur.swift */; };
-		BD426B1E1DABC82C00ACF26F /* Paquet.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD426B1D1DABC82C00ACF26F /* Paquet.swift */; };
 		BD426B231DABCC4C00ACF26F /* CarteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD426B221DABCC4C00ACF26F /* CarteView.swift */; };
+		D80AF6B51E279CBD008F537B /* Carte.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80AF6B41E279CBD008F537B /* Carte.swift */; };
+		D80AF6B71E279CC8008F537B /* Joueur.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80AF6B61E279CC8008F537B /* Joueur.swift */; };
+		D80AF6B91E279CCF008F537B /* Paquet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80AF6B81E279CCF008F537B /* Paquet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,10 +47,10 @@
 		BD426AFF1DABC7B700ACF26F /* TP3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TP3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD426B031DABC7B700ACF26F /* TP3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TP3UITests.swift; sourceTree = "<group>"; };
 		BD426B051DABC7B700ACF26F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BD426B111DABC7FA00ACF26F /* Carte.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Carte.swift; path = ../../DAMTP1/DAMTP1/TP2Swift/TP2Swift/Carte.swift; sourceTree = "<group>"; };
-		BD426B1B1DABC82600ACF26F /* Joueur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Joueur.swift; path = ../../DAMTP1/DAMTP1/TP2Swift/TP2Swift/Joueur.swift; sourceTree = "<group>"; };
-		BD426B1D1DABC82C00ACF26F /* Paquet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Paquet.swift; path = ../../DAMTP1/DAMTP1/TP2Swift/TP2Swift/Paquet.swift; sourceTree = "<group>"; };
 		BD426B221DABCC4C00ACF26F /* CarteView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CarteView.swift; path = ../CarteView.swift; sourceTree = "<group>"; };
+		D80AF6B41E279CBD008F537B /* Carte.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Carte.swift; sourceTree = SOURCE_ROOT; };
+		D80AF6B61E279CC8008F537B /* Joueur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Joueur.swift; sourceTree = SOURCE_ROOT; };
+		D80AF6B81E279CCF008F537B /* Paquet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Paquet.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +101,10 @@
 		BD426AE71DABC7B700ACF26F /* TP3 */ = {
 			isa = PBXGroup;
 			children = (
-				BD426B111DABC7FA00ACF26F /* Carte.swift */,
+				D80AF6B81E279CCF008F537B /* Paquet.swift */,
+				D80AF6B61E279CC8008F537B /* Joueur.swift */,
+				D80AF6B41E279CBD008F537B /* Carte.swift */,
 				BD426B221DABCC4C00ACF26F /* CarteView.swift */,
-				BD426B1B1DABC82600ACF26F /* Joueur.swift */,
-				BD426B1D1DABC82C00ACF26F /* Paquet.swift */,
 				BD426AE81DABC7B700ACF26F /* AppDelegate.swift */,
 				BD426AEA1DABC7B700ACF26F /* Assets.xcassets */,
 				BD426AEC1DABC7B700ACF26F /* MainMenu.xib */,
@@ -261,11 +261,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD426B1E1DABC82C00ACF26F /* Paquet.swift in Sources */,
+				D80AF6B91E279CCF008F537B /* Paquet.swift in Sources */,
 				BD426AE91DABC7B700ACF26F /* AppDelegate.swift in Sources */,
-				BD426B1C1DABC82600ACF26F /* Joueur.swift in Sources */,
+				D80AF6B71E279CC8008F537B /* Joueur.swift in Sources */,
+				D80AF6B51E279CBD008F537B /* Carte.swift in Sources */,
 				BD426B231DABCC4C00ACF26F /* CarteView.swift in Sources */,
-				BD426B121DABC7FA00ACF26F /* Carte.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,6 +391,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 			};
 			name = Release;
 		};
@@ -487,6 +488,7 @@
 				BD426B0A1DABC7B700ACF26F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BD426B0B1DABC7B700ACF26F /* Build configuration list for PBXNativeTarget "TP3Tests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +497,7 @@
 				BD426B0D1DABC7B700ACF26F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BD426B0E1DABC7B700ACF26F /* Build configuration list for PBXNativeTarget "TP3UITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +506,7 @@
 				BD426B101DABC7B700ACF26F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
