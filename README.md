@@ -12,7 +12,7 @@
 <li>Flush: x6</li>
 <li>Full house: x9</li>
 <li>Four of a kind: x20</li>
-<li>Straight flush: x50<li>
+<li>Straight flush: x50</li>
 <li>Royal flush: x250</li>
 </ul>
 
